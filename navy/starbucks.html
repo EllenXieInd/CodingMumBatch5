@@ -6,41 +6,96 @@
 #kolom {width:100%;
            float:left}
 #kolomlain {width:50%}
-#kolomdisplay {width:25%;
+#kolomdisplay {width:25%; 
+               float:left;
                height:100px}
+img.kolomtengah{position:relative; display:  block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 25px}
+li {display: inline;
+    margin-right: 5px;margin-top: 5px;margin-bottom: 5px;
+    font-family: tahoma-black} 
+a.header:link, a:visited {display: inline-block; 
+    text-align:center;
+    text-decoration: none;
+    }
+  
+a.menu:link, a:visited {
+    background-color: wheat ;   
+    padding: 10px 10px;
+    text-align: center;
+    border: dotted 1px;
+    text-decoration: none;
+    display: inline-block}
+a.menu:hover, a:active  {
+    background-color: lightgray;}
+
+   
 </style>
 </head>
 <body>
 <div id="kolom";
      style="background-color:green;
-     height:30px"> 
+     height:10px"> 
 </div>
 
 <div style="background-color:white; 
            height:150px;
            float:left;
            width:100%"> 
-     <div style="width:20%; 
+     <div
+          style="width:20%; 
                 float:left;
-                background-color:blue;
+                background-color:lightgray;
                 height:150px">
+          <img src= "https://lh4.ggpht.com/m0b74lPyYDhg_pxyBQMEeYU6hBbLBPuzyLHjCErYtJDn5Oy4nsnVsGlSZyXFj9XTrPU=w300" style="width:90px; height:90px"  class="kolomtengah">   
      </div>
-     <div style="width:80%; 
+                                                                                                                                        
+     <div style=
+               "background-color:lightgray;
                 float:right;
-                background-color:aqua;
-                height:150px">
-   
-            <div style=
-               "background-color:orange;
-                width:100%;
-                height:75px">
-             </div>
-            <div style=
-               "background-color:brown;
-                width:100%;
-                height:75px">
-             </div>
-    </div>
+                width:80%;
+                height:75px">   
+         <ul style="float:right" >     
+             <li><a class="header" href="https://www.starbucks.com"> <img src="https://image.flaticon.com/icons/svg/8/8109.svg" width="15px" height="15px"></a></li>
+             <li><a class="header" href="https://www.starbucks.com"> My Bag</a> </li>
+             <li><a class="header" href="https://www.starbucks.com"> <img src="https://image.flaticon.com/icons/svg/8/8168.svg" width="15px" height="15px"> </a></li>
+             <li><a class="header" href="https://www.starbucks.com">Find a store </a></li>
+             <li><a class="header" href="https://www.starbucks.com"> <img src="https://image.flaticon.com/icons/svg/109/109605.svg" width="15px" height="15px"></a> </li>
+             <li style="border-left:1px solid"> <a class="header" href="https://www.starbucks.com"> Sign In </a></li>
+             <li> <form style="float:right"> 
+                   <label for="search"></label>
+                   <input type="text" id="fname" name="fname" placeholder="Search this site"> 
+                 <button>
+                 <img src="https://image.flaticon.com/icons/svg/61/61683.svg" width="12px" height="12px"> </button> </form>
+                 </li>
+           
+         </ul>      
+     </div>     
+    
+    
+    
+    
+    
+     <div style=
+               "background-color: lightgray;
+                float:right;
+                width:80%;
+                height: 75px">  
+                <ul>
+                <li><a class="menu" href="https://www.starbucks.com">Coffee </a></li>
+                <li><a class="menu" href="https://www.starbucks.com"> Tea </a> </li>
+                <li><a class="menu" href="https://www.starbucks.com"> Menu</a> </li>
+                <li><a class="menu" href="https://www.starbucks.com"> Coffeehouse</a> </li>
+                <li><a class="menu" href="https://www.starbucks.com"> Responsibility </a></li>
+                <li><a class="menu" href="https://www.starbucks.com"> Card </a></li>
+                <li><a class="menu" href="https://www.starbucks.com"> Blog </a></li>    
+                <li><a class="menu" href="https://www.starbucks.com"> Shop </a></li>   
+                </ul>
+     </div>
+  
 </div>
 
 <div id="kolom"; style="background-color:silver; height:400px"> 
@@ -53,10 +108,13 @@
           style="background-color:pink; 
                 float:right;
                 height:400px">
-     </div>
-</div>
-
-<div id="kolom"; style="background-color:black; height:100px"> 
+     <ul>
+         <li>  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYQ7vOfVbmKOOBnKwDem9MUNZgsrzf_0KnEV2he3V8-pDgBbIK8w"></li>
+         <li><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXJHpKUpqyJNh1QWPLMa7SkoJWhrNffVOBSRM1RfeiPjo_SCUgDQ"> </li>
+         </ul>
+    </div>
+    
+         
      <div id="kolomlain"; 
           style="background-color:pink; 
                 float:left;
@@ -186,26 +244,25 @@
                 height:100px">
      </div>
 </div>
-<div id="kolom"; style="background-color:fuchsia;  height:100px"> 
-     <div id="kolomdisplay";
+
+<div id="kolomdisplay";
           style="background-color:beige; 
                 display:inline-block">
-    </div>
-     <div id="kolomdisplay";	
+</div>
+<div id="kolomdisplay";	
           style="background-color:fuchsia; 
                 display:inline-block">
-     </div>
-    <div id="kolomdisplay"; 
+</div>
+<div id="kolomdisplay"; 
           style="background-color:beige; 
                 display:inline-block">
-     </div>
-     <div id="kolomdisplay"; 
-          style="background-color:pink; 
+</div>
+<div id="kolomdisplay"; 
+          style="background-color:fuchsia; 
                 display:inline-block">
-     </div>
+</div>
  
 
-</div>
 <div id="kolom"; style="background-color:gray;  height:100px"> 
 </div>
 
