@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<!-- saved from url=(0050)file:///E:/CodingMumBatch5/lindaqua/starbucks.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<title>starbucks</title>
-
-	<style>
+<html>
+<head>
+<title>starbucks</title>
+<style>
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+        
+        
     li{display:inline;
        margin-right:50px;
        font-family:tahoma black;
@@ -31,12 +35,27 @@
         
 	#kolom {width:100%;
                 float:right}
-    
+    #kolomkecil {
+				height:300px;
+        display:inline-block;
+        vertical-align: top;
+        background-color:lightgrey}
   
       
 	</style>
+    
+    
+    
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+    
+    
 	</head>
-		<body>
+<body>
+
 
 			<div id="kolom" style="height: 60px;
 				background-color :#f7f7f7">
@@ -109,7 +128,7 @@
                            </li>
                            </ul>    
 						</div>
-					</div>
+				
             
             
 
@@ -206,127 +225,80 @@
 				background-color :green">
 			</div>
             
-			<div id="kolom" style=
-               "width: 100%;
-				float: left;
-				height: 120px;                   
+			<div class="row" style=
+               "height: 300px;                   
 				background-color :yellow">
 
-                <div style=
-                   "width:20%;
-					float:left;
-					height:120px;
-                    display:inline-block;
-					background-color:red">
-                    
-                    <ul style="vertical-align:center"          
-                    <h5 style="font-family:inherit; color:black">ABOUT US</h5>
-                    <h12> Our Company</h12>;
-                    <h12> InvestorRelations</h12>;
-                    <h12>Newsroom</h12>
-                    </ul>
-                </div>
+                  <div class="col-sm-2" id="kolomkecil">                  
+                  <h3>ABOUT US</h3>
+                        <ul>
+                            <li> Our Company</li>
+                            <li> Investor Relations</li>
+                            <li>Newsroom</li>
+                        </ul>
+                  </div>
                 
                 
-                <div style=
-                   "width:16%;
-					float:left;
-					height:120px;
-                    display:inline-block;
-					background-color:yellow">
-                    
-                    <div style="horisontal-align:center">          
-                    <h5 style="font-family:inherit; color:black">CAREER CENTER</h5>
-                    <h12> Working at Starbucksy</h12>
-                    <h12> College Plan</h12>
-                    <h12> Current Partners</h12>
-                    <h12> Corporate Careers</h12>
-                    <h12> Manufacturing and Distribution </h12>
-                    <h12> Retail Careers</h12>
-                    <h12> International Careers</h12>
-                    </div>
-                </div>
+                  <div class="col-sm-2" id="kolomkecil">
+                  <h3>CAREER CENTER</h3>
+                        <ul>
+                            <li> Working at Starbucksy</li>
+                            <li> College Plan</li>
+                            <li> Current Partners</li>
+                            <li> Corporate Careers</li>
+                            <li>Manufacturing and Distribution </li>
+                            <li> Retail Careers</li>
+                            <li> International Careers</li>
+                            </ul>      
+                  </div>
                 
-                <div style=
-                   "width:16%;
-					float:left;
-					height:120px;
-                    display:inline-block;
-					background-color:red">
-                    
-                    <div style="horisontal-align:center">          
-                    <h5 style="font-family:inherit; color:black">ONLINE COMUNITY</h5>
-                    <h12> Twitter</h12>
-                    <h12> Facebook</h12>
-                    <h12> Instagram</h12>
-                    <h12> Linkedln</h12>
-                    <h12> Pinterest</h12>
-                    <h12> You Tube</h12>
-                    <h12> My Starbucks Idea</h12>
-                    </div>
-                </div>
+                
+                  <div class="col-sm-2" id="kolomkecil">
+                  <h3>ONLINE COMUNITY</h3>
+                        <ul>    
+                            <li> Twitter</li>
+                            <li> Facebook</li>
+                            <li> Instagram</li>
+                            <li> Linkedln</li>
+                            <li> Pinterest</li>
+                            <li> You Tube</li>
+                            <li> My Starbucks Idea</li>
+                        </ul>
+                  </div>
+                  
         
-                <div style=
-                   "width:16%;
-					float:left;
-					height:120px;
-                    display:inline-block;
-					background-color:yellow">
-                    
-                    <div style="horisontal-align:center">          
-                    <h5 style="font-family:inherit; color:black">FOR BUSINESS</h5>
-                    <h12> Office Coffee</h12>
-                    <h12> Starbucks Coffee International</h12>
-                    <h12> Foodservice</h12>
-                    <h12> Licensed Stores</h12>
-                    <h12> Starbucks Card Corporate Sales</h12>
-                    <h12> Landlord Support Center</h12>
-                    <h12> Suppliers</h12>
-                    </div>
-                </div>
+                  <div class="col-sm-2" id="kolomkecil">
+                  <h3>FOR BUSINESS</h3>
+                        <ul>                                    
+                            <li> Office Coffee</li>
+                            <li> Starbucks Coffee International</li>
+                            <li> Foodservice</li>
+                            <li> Licensed Stores</li>
+                            <li> Starbucks Card Corporate Sales</li>
+                            <li> Landlord Support Center</li>
+                            <li> Suppliers</li>
+                        </ul>                             
+                  </div>
+                
         
-                <div style=
-                   "width:16%;
-					float:left;
-					height:120px;
-                    display:inline-block;
-					background-color:red">
-                    
-                    <div style="horisontal-align:center">          
-                    <h5 style="font-family:inherit; color:black">QUICK LINKS</h5>
-                    <h12> My Account</h12>
-                    <h12> Store Locator</h12>
-                    <h12> Nutrition info</h12>
-                    <h12> Customer Service</h12>
-                    </div>
-        
-                <div style=
-                   "width:16%;
-					float:left;
-					height:120px;
-                    display:inline-block;
-					background-color:yellow">
+                  <div class="col-sm-2" id="kolomkecil">
+                  <h3>QUICK LINKS</h3>
+                        <ul>
+                            <li> My Account</li>
+                            <li> Store Locator</li>
+                            <li> Nutrition info</li>
+                            <li> Customer Service</li>
+                      </ul>
+                </div> 
+                
+                <div class="col-sm-2" id="kolomkecil">
+                <h3>linda</h3>    
 				</div>
         
             </div>	
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
 
 
 
