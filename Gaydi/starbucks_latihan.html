@@ -1,74 +1,157 @@
-<!DOCTYPE html>
+<!DOCTYPE Html>
 
-<html>
-<head>
+<html>   
+<head>   
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+           
 <style>
-#header{width:100%; height:50px}
 
-#isi{width:100%; height:400px}
+.header{width:100%; Height: 200px}
+.isi{width:100%; Height: 400px}
+.footer{width:100%; Height:70px}
+.footerakhir{width:100%; height:350px}
 
-#tengah{width:100%; height:100px} 
-    
-#footer{width:100%; height :200px}
+li{display:inline-block; color: black; font-family:calibri; text-align: left}
+    a: link {color:black; background-color: black; text-decoration: none; display: inline-block}
+    a: visited {color:black; text-align: center; text-decoration: none; display: inline-block}
+    a: hover{color:black; background-color:black; text-align: center; text-decoration: none; display: inline-block; padding: 5px}
+    a: active{color:black; text-decoration: none; display: inline-block}
+      
 </style>
-
 </head>
 
-	<body>
-	
-	<div id="header"
-	     style="background-color:yellow"> 
-	<p>Data pesanan</p>
-	</div>
+<body>
+<div class="container-fluid">
 
-	<div id="tengah" style="background-color:blue"> 
+<div class="header" style="background-color:white">
+    <div style="width:20%; height:200px; background-color:white; float:left">    
+    <img src="coffee%20logo.png" style="width:190px; margin-left:auto ; margin:5px 25px">
+    </div>
+    
+        <div style="width:80%; height:200px; background-color:white; float:right">  
+                 
+            <div style="width:100%; height:100px; background-color:white; float:right">
+            <ul style="float:right; padding: 30px">
+            <li> <img src="icon%20bag.jpg" style="width:20px"> My Bag </li>
+            <li> <img src="store.jpg" style="width:25px"> Find a Store </li>
+            <li> <form>
+                 <label for="search"> Sign In</label>
+                 <input type="text" id="Sign In" name="fname">
+                </form> </li>       
+            </ul>
+            </div>
         
-		<div style="width:30%; height:100px; background-color:#92F587; float:left"> 
-        <p>logo</p>
-        </div>
-        
-		<div style="width:70%; height:100px; background-color:yellow; float:right"> 
-            <div style="height:50%; width:100%; background-color:pink"> </div>
-            <div style="height:50%; width:100%; background-color:blue"> </div> </div>
-	</div>
-        
-    <div id="isi" style="float:left; background-color:#9E9698"> 
-        <div style="width:50%; height:400px; float:right; background-color:white"> </div>    
-        
-     </div>
-        
-    <div id="isi" style="float:left; background-color:white">
-        <div style="width:50%; height:400px; float:right; background-color:#6BFAE9"> </div>  
-        </div>
-        
-    <div id="isi" style="float:left; background-color:grey">
-        <div style="width:50%; height:400px; float:right; background-color:white"> </div>  
-        </div>
-        
-    <div id="isi" style="float:left; background-color:white">
-        <div style="width:50%; height:400px; float:right; background-color:#6BFAE9"> </div>  
-        </div>
-        
-    <div id="isi" style="float:left; background-color:#9E9698">
-        <div style="width:50%; height:400px; float:right; background-color:white"> </div>  
-        </div>
+            <div style="width:100%; height:100px; background-color:white; padding:30px">
+            <ul style="text-decoration:none; float:left">
+            <li> <a href="https://www.starbucks.com"> COFFEE</a>  </li>
+            <li> <a href="https://www.starbucks.com"> TEA </a>   </li>
+            <li> <a href="https://www.starbucks.com"> SNACK </a>  </li>
+            <li> <a href="https://www.starbucks.com"> CARD </a>  </li>
+            <li> <a href="https://www.starbucks.com"> GALLERY </a> </li>
+            </ul>   
+            </div>    
+        </div>   
+</div>   
+    
+    
+<div class="isi"
+     style="background-image:url("coffee1.jpg")">
+
+        <h1 style="text-align:right; font-family:lucida handwriting; margin:100px">Molton chocolate everything </h1>
+        <p style="float:right"> Indulge your senses with our Molten Chocolate Trio, topped with mocha-infused espresso whipped cream and a drizzle of our decadent chocolate espresso sauce. Share one of these chocolatey delights with a loved one through Valentine's Day.  </p>
+    </div>       
+</div>
+    
+    
+    
+<div class="isi" style="background-color:black; float:left"> 
+    <div class="row">
+    <div class="col-sm-6"> </div>
+        <h2>STARBUCKS REWARDS</h2> </div>
+
    
-    <div id="isi" style="float:left; background-color:orange">
-        <div style="width:20%; height:400px; float:right; background-color:#898CE0"> </div>  
-        <div style="width:20%; height:400px; float:right; background-color:#F5C65F"> </div> 
-        <div style="width:20%; height:400px; float:right; background-color:#F788E3"> </div>
-        <div style="width:20%; height:400px; float:right; background-color:#85F29A"> </div>
-        <div style="width:20%; height:400px; float:right; background-color:#F5820F"> </div>
-        
-        </div>
-        
-    <div id="footer" style="float:left; background-color:black; color:white">
-        <p>ini untuk footer 2</p>
-        </div>
-         
-         
-        
-	</body>
-</html>
+    
+    
+<div class="isi" style="background-color:yellow; float:left"> 
+    <div style="width:50%; height:400px; background-color:purple; float:right"> </div>   
+</div>
+    
 
+<div class="footer" style="background-color:#F77EF3; float:left"></div>
+    
+
+
+<div class="footerakhir" style="background-color:white; float:left">
+        <div class="row">
+        <div class="col-sm-2"> <h5> ABOUT US </h5>
+                <ul>
+                <li> Our Company </li>
+                <li> Investor Relations </li>
+                <li> Newsroom </li>   
+                </ul>    
+        </div>
+            
+        <div class="col-sm-2"> <h5> CAREER CENTER </h5>
+                <ul>
+                <li>Working Starbucks</li>
+                <li>College Plan </li>
+                <li>Current Partners</li>
+                <li>Corporate Careers</li>
+                <li>Manufacturing and Distribution </li>
+                <li>Retail Careers </li>
+                <li>International Careers </li>
+                </ul>     
+        </div>
+            
+        <div class="col-sm-2"> <h5> FOR BUSINESS </h5>
+                <ul>
+                <li>Office Coffee</li>
+                <li>Starbuck Coffee International</li>
+                <li>Foodservice</li>
+                <li>Licensed Stores</li>
+                <li>Starbucks Card Corporate Sales</li>
+                <li>landlord Support Center</li>
+                 <li>Suppliers</li>         
+                </ul>        
+        </div>
+            
+        <div class="col-sm-2"> <h5> ONLINE COMMUNITY </h5>
+              <ul>
+                <li>Twitter</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Linkedln</li>
+                <li>Pinterest</li>
+                <li>YouTube</li>
+                <li>My Starbucks Idea</li>         
+                </ul>                            
+        </div>
+            
+        
+        <div class="col-sm-2"> <h5> QUICK LINKS </h5>
+                <ul>
+                <li>My Account</li>
+                <li>Store Locator</li>
+                <li>Nutrition Info</li>
+                <li>Customer Service</li>     
+                </ul>                                   
+        </div>
+            
+        <div class="col-sm-2"> </div>
+            
+        </div>
+            
+</div>
+    
+<div class="footer" style="background-color:black; float:left"></div>
+    
+</div>  
+</body>
+</html>
