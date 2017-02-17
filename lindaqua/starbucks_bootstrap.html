@@ -3,17 +3,12 @@
 <head>
 <title>starbucks</title>
 <style>
-     <!-- Latest compiled and minified CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
-        
-        
-    li{display:inline;
-       margin-right:50px;
-       font-family:tahoma black;
+    li{font-family:tahoma black;
         color:white}
         
-    li.menu {
+    .li-menu {
+        display:inline;
+        margin-right:50px; 
         border-color: black;
         border-style: solid
         border-width:15px}
@@ -22,38 +17,52 @@
         fontfamily:sanserif;
         color:pink}
         
-        a:link,a:visited{
-          background-color: #f7f7f7;
-           color:black;
-          padding:10px;
-          text-align: center;
-          text-decoration: none; 
-          display: inline-block;
-          position:center;
-          margin-left: auto;
-          margin-right: auto}
+    a:link,a:visited{
+        background-color: #f7f7f7;
+        color:black;
+        padding:10px;
+        text-align: center;
+        text-decoration: none; 
+        display: inline-block;
+        position:center;
+        margin-left: auto;
+        margin-right: auto}
+    
+    a.footer:link,a:visited{
+        background-color: #f7f7f7;
+        color:black;
+        padding:10px;
+        text-decoration: none; 
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto
+        font-family:Calibri}
+    
+    
         
 	#kolom {width:100%;
-                float:right}
-    #kolomkecil {
-				height:300px;
+        float:right}
+    #kolomkecil {height:300px;
         display:inline-block;
         vertical-align: top;
-        background-color:lightgrey}
-  
+        margin-left: auto;
+        background-color:#f7f7f7}
+    
       
-	</style>
+</style>
     
-    
-    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     
-	</head>
+    
+</head>
 <body>
 
 
@@ -102,28 +111,28 @@
                         background-color:#f7f7f7">
                             
                            <ul style="text-align: center; vertical-align:middle">
-                           <li class="menu"> 
+                           <li class="li-menu"> 
                                <a href="https://www.starbucks.com/">Coffee</a>
                            </li>
-                           <li class="menu">
+                           <li class="li-menu">
                                <a href="file:///E:/CodingMumBatch5/lindaqua/starbucks.html">Tea</a>
                            </li>
-                           <li>
+                           <li class="li-menu">
                                <a href="file:///E:/CodingMumBatch5/lindaqua/starbucks.html">Menu</a>
                            </li>
-                           <li>
+                           <li class="li-menu">
                                <a href="file:///E:/CodingMumBatch5/lindaqua/starbucks.html">Coffee House</a>
                            </li>
-                           <li>
+                           <li class="li-menu">
                                <a href="file:///E:/CodingMumBatch5/lindaqua/starbucks.html">Responsibility</a>
                            </li>
-                           <li>
+                           <li class="li-menu">
                                <a href="file:///E:/CodingMumBatch5/lindaqua/starbucks.html">Card</a>
                            </li>
-                           <li>
+                           <li class="li-menu">
                                <a href="file:///E:/CodingMumBatch5/lindaqua/starbucks.html">Blog</a>
                            </li>
-                           <li>
+                           <li class="li-menu">
                                <a href="file:///E:/CodingMumBatch5/lindaqua/starbucks.html">Shop</a>
                            </li>
                            </ul>    
@@ -223,75 +232,91 @@
 			<div id="kolom" style=
                "height: 60px;
 				background-color :green">
-			</div>
+                   <div style="margin-left:100px; margin-top:10px; height:50px; width:50%">                      
+                            <img src="facebook-letter-logo.png">
+                            <img src="twitter-social-logotype.png">
+                            <img src="google-plus-social-logotype.png">
+                            <img src="pinterest-social-logo.png">
+                            <img src="instagram-social-network-logo-of-photo-camera.png">                 
+                   </div>
+                        
+                  <div style="vertical-align:top; text-align: center; text-height:25; width:50%; display:inline-block;   
+                             margin-right:100px">
+                            <ul>
+                              <li><H3>Joint our email list</H3></li>                          
+                            </ul>
+                              </div>  
+			      
+            </div>   
+                
             
-			<div class="row" style=
-               "height: 300px;                   
-				background-color :yellow">
-
-                  <div class="col-sm-2" id="kolomkecil">                  
-                  <h3>ABOUT US</h3>
+			<div class="row">
+                  <div class="col-sm-2">    
                         <ul>
-                            <li> Our Company</li>
-                            <li> Investor Relations</li>
-                            <li>Newsroom</li>
+                            <h3>ABOUT US</h3>                        
+                            <li><p><a class="footer" href="https://www.starbucks.com/about-us/company-information">Our Company</a></p></li>
+                            <li><p><a href="http://investor.starbucks.com/">Investor Relations</a></p></li>
+                            <li><p><a href="http://investor.starbucks.com/">Newsroom</a></p></li>
                         </ul>
                   </div>
                 
                 
-                  <div class="col-sm-2" id="kolomkecil">
-                  <h3>CAREER CENTER</h3>
-                        <ul>
-                            <li> Working at Starbucksy</li>
-                            <li> College Plan</li>
-                            <li> Current Partners</li>
-                            <li> Corporate Careers</li>
-                            <li>Manufacturing and Distribution </li>
-                            <li> Retail Careers</li>
-                            <li> International Careers</li>
-                            </ul>      
+                  <div class="col-sm-2">
+                <ul>
+                            <h3>CAREER CENTER</h3>
+                        
+                            <li><p><a class="footer" href="https://www.starbucks.com/careers/working-at-starbucks">Working at Starbucks</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/careers/working-at-starbucks">Working At Sk</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/careers/college-plan">College Plan</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/careers/current-partners">Current Partners</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/careers/corporate-careers">Corporate Careers</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/careers/manufacturing-distribution">Manufacturing and Distribution</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/careers/retail-careers">Retail Careers</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/careers/international-careers">Intl Career</a></p></li>
+                         </ul>      
                   </div>
                 
                 
-                  <div class="col-sm-2" id="kolomkecil">
+                  <div class="col-sm-2">
                   <h3>ONLINE COMUNITY</h3>
                         <ul>    
-                            <li> Twitter</li>
-                            <li> Facebook</li>
-                            <li> Instagram</li>
-                            <li> Linkedln</li>
-                            <li> Pinterest</li>
-                            <li> You Tube</li>
-                            <li> My Starbucks Idea</li>
+                            <li><a href="http://www.twitter.com/starbucks/">Twitter</a></li>
+                            <li><a href="http://www.facebook.com/starbucks/"> Facebook</a></li>
+                            <li><a href="https://instagram.com/starbucks/" >Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/company/starbucks?utm_source=homepage&utm_medium=footer&utm_campaign=ev"> Linkedln</a></li>
+                            <li><a href="https://www.pinterest.com/starbucks/">Pinterest</a></li>
+                            <li><a href="http://www.youtube.com/starbucks">You Tube</a></li>
+                            <li><a href="http://mystarbucksidea.force.com/"> My Starbucks Idea</a></li>
                         </ul>
                   </div>
                   
         
-                  <div class="col-sm-2" id="kolomkecil">
-                  <h3>FOR BUSINESS</h3>
-                        <ul>                                    
-                            <li> Office Coffee</li>
-                            <li> Starbucks Coffee International</li>
-                            <li> Foodservice</li>
-                            <li> Licensed Stores</li>
-                            <li> Starbucks Card Corporate Sales</li>
-                            <li> Landlord Support Center</li>
-                            <li> Suppliers</li>
+                  <div class="col-sm-2">
+                      <ul>
+                          <h3>FOR BUSINESS</h3>
+                                            
+                            <li><p><a href="https://www.starbucks.com/business/office-coffee">Office Coffee</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/business/international-stores">Starbucks Coffee Intl</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/business/foodservice">Foodservice</a></p></li>
+                            <li><p><a href="https://solutions.starbucks.com/our-platforms/licensed-stores">Licensed Stores</a></p></li>
+                            <li><p><a href="https://www.starbuckscardb2b.com/">Starbucks Card Corp Sales</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/business/landlord-faq">Landlord Support Center</a></p></li>
+                            <li><p><a href="https://www.starbucks.com/business/suppliers" >Suppliers</a></p></li>
                         </ul>                             
                   </div>
                 
         
-                  <div class="col-sm-2" id="kolomkecil">
+                  <div class="col-sm-2">
                   <h3>QUICK LINKS</h3>
                         <ul>
-                            <li> My Account</li>
-                            <li> Store Locator</li>
-                            <li> Nutrition info</li>
-                            <li> Customer Service</li>
+                            <li><a href="https://www.starbucks.com/account"> My Account</a></li>
+                            <li><a href="https://www.starbucks.com/store-locator"> Store Locator</a></li>
+                            <li><a href="https://www.starbucks.com/menu/nutrition"> Nutrition info</a></li>
+                            <li><a href="https://customerservice.starbucks.com/" >Customer Service</a></li>
                       </ul>
                 </div> 
                 
-                <div class="col-sm-2" id="kolomkecil">
+                <div class="col-sm-2">
                 <h3>linda</h3>    
 				</div>
         
