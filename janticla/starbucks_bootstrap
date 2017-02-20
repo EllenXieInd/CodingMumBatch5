@@ -4,9 +4,7 @@
 
 
 	<head>
-		<title>STARBUCKS</title>
-
-	</head>
+<title>STARBUCKS_BOOTSTRAP</title>
 
 <style>
 
@@ -15,11 +13,12 @@
 	height	: 300px}
 
 
-li	{display  : inline; 
+.li-menu	{display  : inline; 
 	margin-right : 50px;
 	font-family  : "calibri";
 	color : black}
-
+	
+.li-class{display:left}
 a:link, a:visited, a:hover, a:active {background-color: #f7f7f7";
 				  	color : black;
 					padding : 10px; 
@@ -34,12 +33,19 @@ a.header:link, a.header:visited, a.header:hover, a.header:active {background-col
 					text-align:center;
                     margin-right: auto;
     text-decoration: none}
-		
-    
+
     
 </style>
 
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
 
 <body>
 
@@ -70,19 +76,19 @@ a.header:link, a.header:visited, a.header:hover, a.header:active {background-col
                         
                     
                                     <ul style= "float :right; color:black">
-                                        <li><img src="bag.png">
+                                        <li class= "li-menu"><img src="bag.png">
                                         My Bag</li>
                                                                 
-                                        <li><img src="raindrop-close-up.png">
+                                         <li class= "li-menu"><img src="raindrop-close-up.png">
                                                 Find Store</li>
                                         
-                                        <li><img src="icon.png">
+                                         <li class= "li-menu"><img src="icon.png">
                                         Sign In</li>
                                     
-                                    <form><li>
+                                    <form class="li-menu" style="float:right"><li>
                                             <input type="float: right;text";id="search"; placeholder="Search for this site">
                                             
-                                            <button style= "float : right;
+                                            <button style= " 
                                                         display : inline;
                                                             display : right">
                                                 <img src="search-circular-button.png"></button></li></form>
@@ -90,21 +96,31 @@ a.header:link, a.header:visited, a.header:hover, a.header:active {background-col
                                         </ul>
                         </div>
                        
-                        <div style =
+                        <div 
+						style=
                             "width : 100%;
                             float : left;
                             height: 75px;
                     background-color: #f7f7f7">
                              
 				                    <ul>
-                                    <li><a class=header href="https://www.starbucks.com">COFEE</a></li>
-                                    <li><a class=header href="https://www.starbucks.com">TEA</a></li>
-                                    <li><a class=header href="https://www.starbucks.com">MENU</a></li>
-                                    <li><a class=header href="https://www.starbucks.com">COFFEEHOUSE</a></li>
-                                    <li><a class=header href="https://www.starbucks.com">RESPONSIBILITY</a></li>
-                                    <li><a class=header href="https://www.starbucks.com">CARD</a></li>
-                                    <li><a class=header href="https://www.starbucks.com">BLOG</a></li>
-                                    <li><a class=header href="https://www.starbucks.com">SHOP </a></li>
+						
+                                    <li class= "li-menu"><a class="header" href="https://www.starbucks.com">COFEE</a></li>
+                                    
+									<li class= "li-menu"><a class= "header" href="https://www.starbucks.com">TEA</a></li>
+                                    
+									<li class= "li-menu"><a class= "header" href="https://www.starbucks.com">MENU</a></li>
+										
+                                    <li class= "li-menu"> <a class= "header" href="https://www.starbucks.com">COFFEEHOUSE</a></li>
+                                   
+									<li class= "li-menu"> <a class= "header" href="https://www.starbucks.com">RESPONSIBILITY</a></li>
+                                    
+									
+									<li class= "li-menu"> <a class= "header" href="https://www.starbucks.com">CARD</a></li>
+                                   
+									<li class= "li-menu"> <a class= "header" href="https://www.starbucks.com">BLOG</a></li>
+                                    
+									<li class="li-menu"><a class= "header" href="https://www.starbucks.com">SHOP </a></li>
                             </ul>
                         
                         </div>	
@@ -144,6 +160,7 @@ a.header:link, a.header:visited, a.header:hover, a.header:active {background-col
 			float		: right;
 			height		: 200px;
 			background-color: green">
+	 </div>
 	</div>
 	
 	<div style =
@@ -158,6 +175,7 @@ a.header:link, a.header:visited, a.header:hover, a.header:active {background-col
 			float		: right;
 			height		: 200px;
 			background-color: red">
+		</div>
 	</div>
 	
 	
@@ -166,6 +184,9 @@ a.header:link, a.header:visited, a.header:hover, a.header:active {background-col
 		float	: right;
 		height	: 200px;
 		background-color: green">
+		
+			<div style 
+
 	
 
 		<div style=	
@@ -173,14 +194,73 @@ a.header:link, a.header:visited, a.header:hover, a.header:active {background-col
 			float		: right;
 			height		: 200px;
 			background-color: yellow">
-	</div>
+	   </div>
+		</div>
 	
-	<div style =
-         "width     :100%;
-          float     : right;
-          height    : 500px;
-          background-color: purple">
-        </div>
+   
+   <div class="row" style="height:300px">
+            <div class="col-sm-2">
+        		<h3> About us</h3>
+        		<ul>
+					<li><a class=header href= "https://www.starbucks.com/about-us/company-information">Our Company</a></li>
+					<li><a class=header href= "http://investor.starbucks.com">Investor Relation </a></li>
+					<li><a class=header href= "http://news.starbucks.com">Newsroom</a></li>
+				</ul>
+			</div>
+            
+        	<div class ="col-sm-2">
+        		<h3>CAREER CENTER</h3>
+				<ul>
+					<li><a class=header href="https://www.starbucks.com/careers/working-at-starbucks"> Working at Starbucks</a></li>
+					
+					<li><a class=header href="https://www.starbucks.com/careers/college-plan"> College Plan</a></li>
+					
+					<li>Current Partners</li>
+					<li>Corporate Careers</li>
+					<li>Manufactured and Distribution</li>
+					<li>Retail Careers</li>
+					<li>International Careers</li></ul>
+	   		</div>
+			
+    		<div class ="col-sm-2"> 
+	   			<h3>FOR BUSINESS</h3>
+	   			<ul>
+					<li> Office Cofee</li>
+					<li> Starbuckd Cofee International</li>
+	   				<li> Food Service</li>
+	   				<li> Licensed Stores</li>
+	   				<li> Starbucks Card Corporate Sale</li>
+	   				<li> Landford Support Center</li>
+	   				<li> Suppliers</li>
+	   			</ul>
+			</div>
+	   		
+	   		<div class ="col-sm-2">
+	   			<h3>ONLINE COMMUNITY</h3>
+	   			<ul>
+	   				<li> Twitter</li>
+	   				<li> Facebook</li>
+	   				<li> Instagram</li>
+	   				<li> Linkedln</li>
+	   				<li> Pinterest</li>
+	   				<li> YouTube</li>
+	   				<li> My Starbucks Idea</li>
+	   			</ul>
+			</div>
+			
+	   		<div class ="col-sm-2">
+	   			<h3> QUICKLINKS</h3>
+				<UL>
+					<li> My Account</li>
+					<li> Store Locator</li>
+					<li> Nutrition Info</li>
+					<li> Customer Service</li>
+				</UL>
+	   		</div>
+	
+        
+        
+      </div>
          
          
 </body>
